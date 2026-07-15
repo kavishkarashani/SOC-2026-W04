@@ -1,30 +1,24 @@
-# SOC-2026-W04
+# SOC 2026 Week 04
 
-## Project Description
-This is a simple Java Maven project developed for Jenkins CI/CD pipeline integration and SonarQube code analysis.
+Spring Boot project integrated with:
 
-## Technologies Used
-- Java 21
-- Maven 3
-- Jenkins
+- Maven
+- Jenkins Pipeline
 - SonarQube
-- GitHub
 
-## Project Structure
 
-SOC-2026-W04/
-│
-├── pom.xml
-├── README.md
-│
-└── src
-    └── main
-        └── java
-            └── App.java
+## Build Project
 
-## How to Build
+Run:
 
-Run the following command:
-
-```bash
 mvn clean install
+
+
+## Run Application
+
+mvn spring-boot:run
+
+
+## Java Version
+
+Java 21
